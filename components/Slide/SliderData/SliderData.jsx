@@ -58,18 +58,17 @@ export const SliderData_3 = () => {
         alt="Foto testimonial cafe del mercado" 
       />
         <div className={styles.sliderData__text}>
-          <p>{'"'}Alba is an extremely hard worker and dedicated to 
-            helping you craft any kind of design. She helped me create 
-            a new web design for my company I could not be more 
-            satisfied with her work. She always had a positive 
-            attitude when speaking with her and even expanded on my 
-            own ideas, so it was easy to work on the project together. 
-            Alba is passionate about her clients and truly cares about 
-            making them happy. I absolutely recommend Alba for your 
-            future projects!.{'"'}
+          <p>{'"'}Alba is an extremely hard worker and dedicated to
+           helping you craft any kind of design. She helped me 
+           create a new web design for my company and I could not
+            be more satisfied with her work. She always has a 
+            positive attitude when speaking with her and even expanded on my own ideas, so it was easy to work on the 
+            project together. Alba is passionate about her clients 
+            and truly cares about making them happy. I absolutely 
+            recommend Alba for your future projects!{'"'}
           </p>
           <p className={styles.sliderData__text_name}>
-            Café del Mercado
+            Historia
           </p>
         </div>
     </div>     
