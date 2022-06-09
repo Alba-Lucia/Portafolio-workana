@@ -1,5 +1,5 @@
 import React, {useEffect, useRef} from 'react'
-import { SliderData_1, SliderData_2 } from './SliderData/SliderData';
+import { SliderData_1, SliderData_2, SliderData_3 } from './SliderData/SliderData';
 import styles from './sliderShow.module.scss'
 
 const SliderShow = () => {
@@ -91,6 +91,9 @@ const SliderShow = () => {
           </div>
           <div className={styles.slide__container}>
                 <SliderData_2/>
+          </div>
+          <div className={styles.slide__container}>
+                <SliderData_3/>
           </div>
       </div>
       <div className={styles.slide__controls}>
