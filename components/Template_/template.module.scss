@@ -1,0 +1,35 @@
+@import "/styles/mixins";
+
+.circle{
+    position: relative;
+    overflow: hidden;
+    margin-top: -2px;
+}
+
+.circle:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 60%;
+    background-color: rgba(251, 251, 251, 0.032);
+    border-radius: 10% 50% 50% 10%;
+    z-index: 0;
+
+    @include md{
+        width: 55%;
+    }
+}
+
+.template{
+    margin-top: -.5rem;
+
+    &__title{
+        text-align: center;
+        padding: 3rem;
+        color: $color-cyan;
+    }
+}
+

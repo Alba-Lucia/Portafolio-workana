@@ -1,0 +1,58 @@
+@import "/styles/mixins";
+
+.hero{
+    margin-top: -.5rem;
+
+    &__text{
+        border-right: solid .3rem #fff;
+        margin-bottom: 4rem;
+        
+            @include md{
+                margin-bottom: 0;
+            }
+
+            p{
+                font-size: 2rem;
+    
+                @include md{
+                    font-size: 3rem;
+                }
+            }
+    }
+
+    &__button{
+        padding: 1rem 3rem;
+        background: $color-pink;
+        border: none;
+        color: $color-white;
+        border-radius: .5rem;
+        font-size: 18px;
+
+        &:hover{
+            color: $color-white;
+            background: #e34f84;
+        }
+    }
+   
+
+    &__image{
+        display: block;
+        width: 90%;
+        margin-bottom: -12rem;
+        z-index: 9;
+        
+        @include md{
+            width: 60%;
+            margin-bottom: -18rem;
+        }
+        
+        @include lg{
+            width: 50%;
+            margin-bottom: -20rem;
+        }
+    }
+}
+
+
+
+

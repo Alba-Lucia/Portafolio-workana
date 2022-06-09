@@ -1,0 +1,86 @@
+@import "/styles/mixins";
+
+@keyframes Load {
+    from{
+        width: 0%;
+    }
+}
+
+@-webkit-keyframes Load {
+    from{
+        width: 0%;
+    }
+}
+
+@-moz-keyframes Load{
+    from{
+        width: 0%;
+    }
+}
+
+.skill{
+    margin-top: 3rem;
+
+    h2{
+        color: $color-pink;
+    }
+
+    h5{
+        font-size: 2rem;
+
+        @include md{
+            font-size: 2.5rem;
+          }
+    }
+
+
+    &__box{
+        list-style: none;
+        margin: 20px 0;
+        padding: 0;
+    }
+
+    &__box li{
+        margin-bottom: 15px;
+    }
+
+    &__bar{
+        margin-bottom: 15px;
+        border-radius: 15px;
+    }
+
+    &__bar:before{
+        content: '';
+        background: linear-gradient(270deg, #FF2E79 0%, #70D4FF 96.47%);    display: inline-block;
+        padding: 8px;
+        border-radius: inherit;
+        animation: load 3s 0s;
+        -webkit-animation: Load 3s 0s;
+        -moz-animation: Load 3s 0s;
+        -o-animation: Load 3s 0s;
+    }
+
+    &__bar1:before{
+        width: calc(95% - 10px);
+    }
+
+    &__bar2:before{
+        width: calc(80% - 10px);
+    }
+    &__bar3:before{
+        width: calc(90% - 10px);
+    }
+    &__bar4:before{
+        width: calc(95% - 10px);
+    }
+    &__bar5:before{
+        width: calc(95% - 10px);
+    }
+
+    &__color{
+        background: #3D7684;
+        border-radius: 50px;
+        height: 16px;
+    }
+    
+}

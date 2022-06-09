@@ -1,0 +1,11 @@
+@import "/styles/mixins";
+
+.Proyects{
+
+    &__title{
+        text-align: center;
+        color: $color-pink;
+        padding-bottom: 3rem;
+    }
+
+}

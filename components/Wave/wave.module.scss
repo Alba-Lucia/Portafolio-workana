@@ -1,0 +1,47 @@
+@import "/styles/mixins";
+
+.wave{
+    margin-top: -.1rem;
+    overflow: hidden;
+
+    &__header{
+        height: 150px;
+        overflow: hidden;
+
+        svg{
+            height: 100%;
+            width: 100%;
+        }
+        
+        path{
+            stroke: none;
+            fill: #132426;
+        }
+    }
+
+    &__desktop{
+        width: 130%;
+        margin-left: -9rem;
+        display: none;
+
+        @include md {
+            display: block;
+        }
+
+        @include lg{
+            width: 100%;
+            margin-left: 0rem;
+        }
+    }
+
+    @include md {
+        &__mobile{
+            display: none;
+        }
+    }
+}
+
+
+
+
+

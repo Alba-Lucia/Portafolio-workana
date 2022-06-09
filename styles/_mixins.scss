@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,500;1,600&display=swap');
+
+$color: red;
+$font-primary: 'Inter', sans-serif;
+$font-secondary: 'Lora', serif;
+$color-cyan: #16d5ff;
+$color-pink: #FF2E79;
+$color-blue: #008293;
+$color-dark: #132426;
+$color-gradient: linear-gradient(270deg, #FF2E79 0%, #BB7DB9 85.72%);
+$color-gris-light: rgba(196, 196, 196, 0.05);
+$color-white: #fff;
+$text-color: #686868;
+
+$movil: 480px;
+$tablet: 768px;
+$desktop: 1025px;
+
+@mixin sm{
+    @media (min-width: $movil){
+      @content;
+    }
+}
+
+@mixin md{
+    @media (min-width: $tablet){
+      @content;
+    }
+}
+
+@mixin lg{
+    @media (min-width: $desktop){
+      @content;
+    }
+}
+  

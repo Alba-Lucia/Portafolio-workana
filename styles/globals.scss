@@ -1,0 +1,144 @@
+@import '../components/Hero/hero.module.scss';
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import "mixins";
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-primary;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+a, p{
+  font-size: 1.8rem;
+
+  @include md{
+    font-size: 2.2rem;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+h1{
+  font-size: 3rem;
+
+  @include md{
+      font-size: 5rem;
+  }
+
+  @include lg{
+        font-size: 7rem;
+  }
+}
+
+h2{
+  font-size: 4rem;
+  margin-bottom: 3.5rem;
+  font-family: $font-secondary;
+  font-weight: 400;
+
+  @include md{
+    font-size: 5rem;
+  }
+
+  @include lg{
+    font-size: 7rem;
+  }
+}
+
+h3{
+  font-size: 2.8rem;
+
+  @include md{
+    font-size: 3.8rem;
+  }
+
+  @include lg{
+    font-size: 5rem;
+  }
+}
+
+h4{
+  font-size: 2.5rem;
+
+  @include md{
+    font-size: 3.5rem;
+  }
+
+  @include lg{
+    font-size: 4rem;
+  }
+}
+
+h5{
+  font-size: 2rem;
+
+  @include md{
+    font-size: 3rem;
+  }
+
+  @include lg{
+    font-size: 3rem;
+  }
+}
+
+.container{
+  max-width: 140rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+[class$="__container"]{
+  max-width: 140rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container__dark{
+  background-color: $color-dark;
+  color: $color-white;
+}
+
+.section{
+  height: 20vh;
+}
+
+.calendly-inline-widget {
+  min-width: 320px;
+    height: 450px;
+}
+
+@media (max-width: 768px){
+  .calendly-inline-widget{
+    min-width: 25rem !important;
+    height: 35rem !important;
+  }
+}
+
+section{
+  padding: 0 0;
+  background-color: $color-white;
+
+  @include md{
+    padding: 6rem 0;
+  }  
+}

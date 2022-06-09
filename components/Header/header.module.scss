@@ -1,0 +1,20 @@
+@import "/styles/mixins";
+
+.header{
+    display: none;
+}
+
+.header__navbar{
+    display: flex;
+    gap: 1.5rem;
+    padding: 4rem 1.5rem;
+
+    a{
+        font-size: 1.6rem;
+        color: $color-white;
+
+        @include md{
+            font-size: 2.2rem;
+        }
+    }
+}

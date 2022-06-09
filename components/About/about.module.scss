@@ -1,0 +1,41 @@
+@import "/styles/mixins";
+
+.circle{
+    position: relative;
+    overflow: hidden;
+    margin-top: -2px;
+}
+
+.circle:before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 60%;
+    background-color: rgba(251, 251, 251, 0.032);
+    border-radius: 50% 20% 20% 50%;
+
+    @include md{
+        width: 55%;
+    }
+
+}
+
+.about{
+    min-height: 400px;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    margin-top: -2px;
+
+    @include md{
+        min-height: 700px;
+    }
+
+    h2{
+        color: $color-cyan;
+    }
+}
+
