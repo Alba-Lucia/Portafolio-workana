@@ -12,7 +12,7 @@ const Hero = () => {
                   <div className={styles.hero__text}>
                     <div className="hero__text--content pe-4 text-end w-100">
                       <p>Hola, soy</p>
-                      <h1>Alba Lucía González</h1>
+                      <h1 className={styles.hero__name}>Alba Lucía González</h1>
                       <a href="/archives/Alba-Resume.pdf"className={styles.hero__button}>
                         Curriculo
                       </a>
