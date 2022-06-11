@@ -10,7 +10,7 @@ const Entradas = () => {
             <img
                className={styles.entrada__image}
                src='/img/Web-responsive-historia.png' 
-               alt='Icon Email'
+               alt='image web Historia'
             />
             <div className={styles.entrada__text}>
                <h5 className={styles.entrada__title}>
@@ -26,7 +26,7 @@ const Entradas = () => {
             <img
                className={styles.entrada__image}
                src='/img/Web-responsive-cafeMercado.png' 
-               alt='Icon Email'
+               alt='image web Café de Mercado'
             />
             <div className={styles.entrada__text}>
                <h5 className={styles.entrada__title}>
@@ -42,7 +42,7 @@ const Entradas = () => {
                <img
                   className={styles.entrada__image}
                   src='/img/Web-responsive-wassekun.png' 
-                  alt='Icon Email'
+                  alt='image web Waseskun'
                />
                <div className={styles.entrada__text}>
                   <h5 className={styles.entrada__title}>

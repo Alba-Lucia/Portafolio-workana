@@ -46,12 +46,12 @@
         z-index: 9;
         
         @include md{
-            width: 60%;
+            width: 50%;
             margin-bottom: -18rem;
         }
         
         @include lg{
-            width: 50%;
+            width: 40%;
             margin-bottom: -20rem;
         }
     }
