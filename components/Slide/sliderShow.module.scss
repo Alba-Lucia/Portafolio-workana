@@ -4,7 +4,10 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-    margin-bottom: 10rem;
+    margin-bottom: 0rem;
+    @include md{
+        margin-bottom: 10rem;
+    }
 
     .slide__title{
         text-align: center;
