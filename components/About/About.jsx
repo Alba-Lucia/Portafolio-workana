@@ -20,7 +20,7 @@ const About = () => {
               <br />
                 Soy una persona muy curiosa, cuando desconozco un tema me gusta 
                 investigar y buscar la solución hasta resolverlo, mi profesión 
-                universitaria es Administradora de empresa, un poco después de 
+                universitaria es Administradora de Empresas, un poco después de 
                 finalizarla inicie a estudiar por mi cuenta diseño y desarrollo 
                 web, adquiriendo la habilidad de diseñar paginas que se 
                 adapten fácilmente a la lógica de programación o implementación 
