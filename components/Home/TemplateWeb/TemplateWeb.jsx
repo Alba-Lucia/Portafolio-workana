@@ -1,6 +1,7 @@
 import styles from './template.module.scss'
-import { WavePlantillaUp, WavePlantillatDownd } from '../Wave/Wave'
+// import { WavePlantillaUp, WavePlantillatDownd } from '../Wave/Wave'
 import PostTemplate from './PostTemplate/PostTemplate'
+import { WavePlantillatDownd, WavePlantillaUp } from '../../Wave/Wave'
 
 const Template = () => {
   return (

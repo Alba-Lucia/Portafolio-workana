@@ -4,12 +4,16 @@
     margin-top: -.5rem;
 
     &__name{
-        margin-bottom: 3rem ;
+        // margin-bottom: 3rem ;
+
+        p{
+            margin-bottom: 0;
+        }
     }
 
     &__text{
         border-right: solid .3rem #fff;
-        margin-bottom: 4rem;
+        margin-bottom: 0rem;
         
             @include md{
                 margin-bottom: 0;
@@ -17,6 +21,7 @@
 
             p{
                 font-size: 2rem;
+                margin: 0;
     
                 @include md{
                     font-size: 3rem;
@@ -25,17 +30,9 @@
     }
 
     &__button{
-        padding: 1rem 3rem;
-        background: $color-pink;
-        border: none;
-        color: $color-white;
-        border-radius: .5rem;
-        font-size: 18px;
 
-        &:hover{
-            color: $color-white;
-            background: #e34f84;
-        }
+       
+        
     }
    
 

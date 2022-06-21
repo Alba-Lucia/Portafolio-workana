@@ -1,0 +1,53 @@
+@import "/styles/mixins";
+
+.PortfolioProyects{
+
+    &__title{
+        text-align: center;
+        color: $color-pink;
+        padding-bottom: 2rem;
+    }
+
+    &__items{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-bottom: 2.5rem;
+        font-size: 1.8rem;
+
+        @include md{
+        }
+    }
+
+    &__item{
+        margin-right: 2rem;
+
+        
+    }
+    &__item:last-of-type{
+        margin-right: 0;
+    }
+
+    &__item{
+        position: relative;
+        padding-left: 2.5rem;
+
+    }
+    &__item:before{
+        content: ' ';
+        position: absolute;
+        width: 1.8rem;
+        height: 1.8rem;
+        top: .3rem;
+        left: 0;
+        border-radius: 50%;
+        border: .1rem solid #aebecd;
+        box-shadow: 0 0px 2px hsl(209, 24%, 74%);
+    }
+
+    &__content{
+        margin: 6rem 0;
+    }
+}

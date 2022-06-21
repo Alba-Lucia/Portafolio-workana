@@ -2,9 +2,7 @@ import React from 'react'
 import styles from './hero.module.scss'
 import { WaveHeader }  from '../Wave/Wave'
 
-const Hero = (props) => {
-
-  
+const Hero = () => {
     return (
       <div className={styles.hero}>
          <div className="container__dark py-4">
@@ -13,17 +11,15 @@ const Hero = (props) => {
                 <div className="order-md-1 ">
                   <div className={styles.hero__text}>
                     <div className="hero__text--content pe-4 text-end w-100">
-                      <p>{props.saludo}</p>
-                      <h1 className={styles.hero__name}>{props.titulo}</h1>
-                      <p>{props.text}</p>
-                      {/* <a href="/archives/Alba-Resume.pdf"className={styles.hero__button}>
-                      </a> */}
-                        <div className={styles.hero__button}>{props.button}</div>
-                        <p className={styles.hero__description}>{props.description}</p>
+                      <p>Hola, soy</p>
+                      <h1 className={styles.hero__name}>Alba Lucía González</h1>
+                      <a href="/archives/Alba-Resume.pdf"className={styles.hero__button}>
+                        Curriculo
+                      </a>
                     </div>
                   </div>
                 </div>
-              <img src={props.image} alt='Photo Alba Lucia Gonzalez' className={styles.hero__image}/>
+              <img src='AlbaPortafolio.png' alt='Photo Alba Lucia Gonzalez' className={styles.hero__image}/>
             </div>
           </div>
         </div>

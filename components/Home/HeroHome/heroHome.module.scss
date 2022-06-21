@@ -1,0 +1,24 @@
+@import "/styles/mixins";
+
+.border{
+    border-right: solid .3rem #fff;
+    button{
+        background: transparent;
+        border: none;
+        margin: 2.5rem 0;
+
+            a{
+                background: $color-pink;
+                padding: 1.5rem 3rem;
+                border: none;
+                color: $color-white;
+                border-radius: .5rem;
+                font-size: 18px;
+
+            &:hover{
+                color: $color-white;
+                background: #e34f84;
+            }
+        }
+    }
+}

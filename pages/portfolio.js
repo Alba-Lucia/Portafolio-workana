@@ -1,4 +1,6 @@
 import Layout from '../components/Layout/Layout'
+import HeroPortfolio from '../components/Portfolio/HeroPortfolio/HeroPortfolio'
+import PortfolioProyects  from '../components/Portfolio/PortfolioProyects/PortfolioProyects '
 
 const Portfolio = () => {
     return (
@@ -7,7 +9,9 @@ const Portfolio = () => {
         <Layout 
           page="Portfolio"
         >
-          <h1 className='section'></h1>
+          <HeroPortfolio/>
+
+          <PortfolioProyects/>
 
 
         </Layout>

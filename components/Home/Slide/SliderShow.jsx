@@ -45,7 +45,7 @@ const SliderShow = () => {
   const anterior = () => {
     if(slideShow.current.children.length > 0){
       //Obtener el ultimo elemento del slideshow
-      const index = slideShow.current.children.length -1;
+      const index = slideShow.current.children.length - 1;
       const ultimoElemento = slideShow.current.children[index];
       slideShow.current.insertBefore(ultimoElemento, slideShow.current.firstChild);
       slideShow.current.style.transition = 'none';
@@ -64,7 +64,7 @@ const SliderShow = () => {
  useEffect(() => {
     intervaloSlideshow.current = setInterval(() => {
       siguiente();
-    }, 8000);
+    }, 6000);
 
     // Eliminar los intervalos al pasar el cursor
     slideShow.current.addEventListener('mouseenter', () => {
