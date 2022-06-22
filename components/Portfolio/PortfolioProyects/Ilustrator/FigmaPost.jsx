@@ -10,7 +10,7 @@ const Ilustrator = () => {
                
             <div className={styles.entrada__content}>
                   <div className={styles.entrada__image}>
-                     <Image
+                     <img
                         height='400px'
                         width='400px'
                         src='/Gift/Gif-1.gif' 
@@ -20,7 +20,7 @@ const Ilustrator = () => {
                </div>
                <div className={styles.entrada__content}>
                   <div className={styles.entrada__image}>
-                     <Image
+                     <img
                         height='400px'
                         width='400px'
                         src='/Gift/Gif-2.gif' 
@@ -30,7 +30,7 @@ const Ilustrator = () => {
                </div>
                <div className={styles.entrada__content}>
                  <div className={styles.entrada__image}>
-                 <Image
+                 <img
                      height='400px'
                      width='400px'
                      src='/ilustrations/ilustracionPortfolio6.svg' 
